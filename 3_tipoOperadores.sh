@@ -15,7 +15,7 @@ echo "Dividir A / B =" $((numA / numB))
 echo "Residuo A % B =" $((numA % numB))
 
 
-echo "\nOperadores Aritmeticos"
+echo "\nOperadores Relacion"
 echo "NumeroA = $numA"
 echo "NumeroB = $numB"
 echo "Sumar A > B =" $((numA > numB))
@@ -26,9 +26,11 @@ echo "Sumar A == B =" $((numA == numB))
 echo "Restar A != B =" $((numA != numB))
 
 
-echo "\nOperadores Aritmeticos"
+echo "\nOperadores Asignacion"
 echo "NumeroA = $numA"
 echo "NumeroB = $numB"
 echo "Sumar A = A + B =" $((numA += numB))
-echo "Sumar A = A - B =" $((numA -= numB))
-
+echo "Restar A = A - B =" $((numA -= numB))
+echo "Multiplicar A = A * B =" $((numA *= numB))
+echo "Dividir A = A / B =" $((numA /= numB))
+echo "Residuo A = A % B =" $((numA %= numB))
