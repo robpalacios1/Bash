@@ -26,7 +26,9 @@ echo "Sumar A == B =" $((numA == numB))
 echo "Restar A != B =" $((numA != numB))
 
 
-
-
-
+echo "\nOperadores Aritmeticos"
+echo "NumeroA = $numA"
+echo "NumeroB = $numB"
+echo "Sumar A = A + B =" $((numA += numB))
+echo "Sumar A = A - B =" $((numA -= numB))
 
