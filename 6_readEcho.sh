@@ -1,5 +1,5 @@
 # !/bin/bash
-# Programa para ejemplificar como capturar la informacion del usuario utilizando el comando echo, read y $REPLY
+# echo, read and $REPLY
 # Autor: Roberto Palacios
 
 option=0
