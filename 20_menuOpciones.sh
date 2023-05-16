@@ -27,19 +27,19 @@ do
   case $option in
     1)
         echo -e "\nInstall Postgres....."
-        sleep 2
+        sleep 3
         ;;
     2)
         echo -e "\nUninstall Postgres....."
-        sleep 2
+        sleep 3
         ;;
     3) 
         echo -e "\nMake a BackUp....."
-        sleep 2
+        sleep 3
         ;;
     4)
         echo -e "\nRestauring a BackUp....."
-        sleep 2
+        sleep 3
         ;;
     5) echo -e "\nExiting....."
         exit 0
