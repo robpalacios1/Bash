@@ -12,7 +12,7 @@ install_postgress () {
     echo -e "\n Postgres is installed"
   else
     read -s -p "Enter Sudo Password: " password
-    read -s -p "Enter the password for Postgres " passwordPostgres
+    read -s -p "Enter the password for Postgres: " passwordPostgres
     echo "$password" | sudo -S apt update
     echo "$password" | sudo -S apt-get -y install postgresql postgresql-contrib
     sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '{$PASSWORDpOSTGRES}';"
